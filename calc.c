@@ -10,7 +10,7 @@ int main(int argc,char *argv[]){
 
 	if (argc==4){
 
-		option = atoi(argv[1])
+		option = atoi(argv[1]);
 		val1 = atoi(argv[2]);
 		val2 = atoi(argv[3]);
 
