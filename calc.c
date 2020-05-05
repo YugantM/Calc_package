@@ -1,21 +1,35 @@
 #include "add.h"
 #include "mul.h"
 #include<stdio.h>
+#include<stdlib.h>
 
 
-void main(int option, int val1, int val2){
-	switch(option){
+int main(int argc,char *argv[]){
+	if (argc==3){
 
-		case 1:
-		print(add(val1,val2));
-		break;
+		val1 = atoi(argv[0]);
+		val2 = atoi(argv[1]);
 
-		case 2:
-		print(add(val1,val2));
-		break;
+		switch(option){
 
-		default:
-		print("invalid option")
+			case 1:
+			printf(add(val1,val2));
+			break;
+
+			case 2:
+			printf(add(val1,val2));
+			break;
+
+			default:
+			printf("invalid option");
+		}
+
+
+	}
+	else{
+
+		return "need exact 3 arguments";
 	}
 
+return 0;
 }
