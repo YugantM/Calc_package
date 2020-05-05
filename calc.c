@@ -8,10 +8,11 @@ int main(int argc,char *argv[]){
 
 	int option,val1,val2;
 
-	if (argc==3){
+	if (argc==4){
 
-		val1 = atoi(argv[0]);
-		val2 = atoi(argv[1]);
+		option = atoi(argv[1])
+		val1 = atoi(argv[2]);
+		val2 = atoi(argv[3]);
 
 		switch(option){
 
@@ -32,7 +33,7 @@ int main(int argc,char *argv[]){
 	}
 	else{
 
-		return "need exact 3 arguments";
+		printf("need exact 3 arguments");
 	}
 
 return 0;
