@@ -5,6 +5,9 @@
 
 
 int main(int argc,char *argv[]){
+
+	int option,val1,val2;
+
 	if (argc==3){
 
 		val1 = atoi(argv[0]);
@@ -13,15 +16,16 @@ int main(int argc,char *argv[]){
 		switch(option){
 
 			case 1:
-			printf(add(val1,val2));
+			printf("%d",add(val1,val2));
 			break;
 
 			case 2:
-			printf(add(val1,val2));
+			printf("%d",mul(val1,val2));
 			break;
 
 			default:
 			printf("invalid option");
+			break;
 		}
 
 
