@@ -7,8 +7,8 @@ url="https://github.com/YugantM/Calc_package"
 license=('GPLv2')
 #depends=('')
 makedepends=('cmake' 'git')
-_dir=${pkgname}
-source=("${_dir}"::"https://github.com/YugantM/Calc_package.git")
+#_dir=${pkgname}
+source=("./src/")
 md5sums=('SKIP')
 
 build() {
