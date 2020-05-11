@@ -9,9 +9,10 @@ set(headers
 	include/mul.h)
 
 # set source files
-set(sources src/add.cpp)
+set(sources src/calc.c)
 
 add_library (cal_cpp SHARED
   ${sources}
   ${headers}
 )
+
