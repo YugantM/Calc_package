@@ -1,5 +1,5 @@
-pkgname=NAME
-pkgver=VERSION
+pkgname=calc
+pkgver=1.0
 pkgrel=1
 pkgdesc=""
 arch=("any")
