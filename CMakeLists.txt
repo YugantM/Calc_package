@@ -17,3 +17,4 @@ add_library (cal_cpp SHARED
 )
 
 install(TARGETS Calc_package DESTINATION bin)
+install(FILES ${headers} DESTINATION include/Calc_package)
