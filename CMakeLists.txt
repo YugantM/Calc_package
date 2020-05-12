@@ -16,3 +16,4 @@ add_library (cal_cpp SHARED
   ${headers}
 )
 
+install(TARGETS calculator_cpp DESTINATION bin)
