@@ -7,7 +7,7 @@ url=""
 license=('GPL')
 source=("https://github.com/YugantM/Calc_package.git")
 noextract=()
-md5sums=() #autofill using updpkgsums
+#md5sums=() #autofill using updpkgsums
 
 build() {
 
