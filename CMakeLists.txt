@@ -1,5 +1,5 @@
 cmake_minimum_required (VERSION 2.8.11)
-project (Calc_package)
+project (calc)
 
 include_directories(${CMAKE_CURRENT_SOURCE_DIR}/include)
 
@@ -11,10 +11,10 @@ set(headers
 # set source files
 set(sources src/calc.c)
 
-add_library (cal_cpp SHARED
+add_library (calc SHARED
   ${sources}
   ${headers}
 )
 
-install(TARGETS Calc_package DESTINATION bin)
-install(FILES ${headers} DESTINATION include/Calc_package)
+install(TARGETS calc DESTINATION bin)
+install(FILES ${headers} DESTINATION include/calc)
