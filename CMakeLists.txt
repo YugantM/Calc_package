@@ -11,10 +11,9 @@ set(headers
 # set source files
 set(sources src/calc.c)
 
-add_library (calc SHARED
+add_executable(calc 
   ${sources}
   ${headers}
 )
 
 install(TARGETS calc DESTINATION bin)
-install(FILES ${headers} DESTINATION include/calc)
